@@ -1,6 +1,11 @@
 {<img src="https://travis-ci.org/stefankroes/ancestry.png?branch=master" alt="Build Status" />}[https://travis-ci.org/stefankroes/ancestry]
 {<img src="https://coveralls.io/repos/stefankroes/ancestry/badge.png" alt="Coverage Status" />}[https://coveralls.io/r/stefankroes/ancestry]
 
+= Fork information
+
+This is a fork to remove the acts_as_tree alias in Ancestry. No other
+changes has been made.
+
 = Ancestry
 
 Ancestry is a gem/plugin that allows the records of a Ruby on Rails ActiveRecord model to be organised as a tree structure (or hierarchy). It uses a single, intuitively formatted database column, using a variation on the materialised path pattern. It exposes all the standard tree structure relations (ancestors, parent, root, children, siblings, descendants) and all of them can be fetched in a single SQL query. Additional features are STI support, scopes, depth caching, depth constraints, easy migration from older plugins/gems, integrity checking, integrity restoration, arrangement of (sub)tree into hashes and different strategies for dealing with orphaned records.
